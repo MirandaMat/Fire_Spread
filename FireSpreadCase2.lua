@@ -16,9 +16,9 @@ Este trabalho estudar a primeira etapa do trabalho: o espalhamento de fogo em pa
 SpreadFire = Model{
     dim = 50,
     finalTime = 300, -- Tempo em minutos
-    radius = 0, -- Raio inicial do círculo
+    radius = 0, -- Raio inicial de propagação
     windDirection = math.pi / 2, -- Direção do vento em radianos (2 = 360 graus, vento vindo do norte >> sul)
-    windSpeed = 4, -- Velocidade do vento
+    windSpeed = 6.3, -- Velocidade do vento
 
     init = function(model)
         model.cell = Cell{

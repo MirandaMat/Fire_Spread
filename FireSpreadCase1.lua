@@ -16,7 +16,7 @@ Este trabalho estudar a primeira etapa do trabalho: o espalhamento de fogo em pa
 SpreadFire = Model{
     dim = 50, -- Dimensao do mapa
     finalTime = 300, -- Tempo em minutos
-    radius = 0, -- Raio inicial do círculo
+    radius = 0, -- Raio inicial de propagacao
 
     init = function(model)
         model.cell = Cell{
