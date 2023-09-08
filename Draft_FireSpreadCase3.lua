@@ -18,7 +18,7 @@ Este trabalho estudar a primeira etapa do trabalho: o espalhamento de fogo em pa
 SpreadFire = Model{
     dim = 50, -- Dimensão do mapa
     finalTime = 300, -- Tempo em minutos
-    radius = 0, -- Raio inicial do círculo
+    radius = 0, -- Raio inicial
     elevationMap = {}, -- Mapa de elevação do terreno
 
     init = function(model)
@@ -62,7 +62,7 @@ SpreadFire = Model{
                     if distance <= model.radius then
                         -- Considera a influência da elevação na propagação do fogo
                         local adjustedRateOfSpread = R
-                        -- Ajusta o logic para a direção do vento aqui, se necessário
+                        -- Ajusta o logic para a direção do vento
                         if math.random() < adjustedRateOfSpread then
                             cell.state = "burning"
                         end
