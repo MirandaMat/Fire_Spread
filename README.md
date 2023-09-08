@@ -1,7 +1,10 @@
 # Simulação de espalhamento de incêndio em um sistema homogêneo de Savana
 
+## O Artigo de referência
+
+
 ## O código-fonte
-Há dois scripts..
+Há dois scripts SpreadFireCase1.lua e SpreadFireCase2.lua, equivalentes aos modelos reproduzidos do artigo.  
 
 ## O Relatório
 O enunciado do problema e a análise dos resultados da simulação estão descritos no notebook `CAP-465_Exercício2.ipynb`. 
